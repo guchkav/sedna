@@ -264,6 +264,20 @@ Animations
   to {
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); } }
+
+/* Typewritter Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 /* ==========================================================================
 Waypoinsts
 ========================================================================== */
@@ -363,6 +377,18 @@ Hero
     margin-bottom: 10px; }
   .hero .hero-content {
     padding-top: 26%; }
+
+.line-1{
+        position: relative;
+        top: 60%;  
+        width: 15em;
+        height: 1.2em;
+        margin: 0 auto;
+        border-right: 2px solid rgba(255,255,255,.75);
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;  
+    }
 
 .navigation {
   -webkit-transition: all 300ms ease-in-out;
@@ -702,6 +728,38 @@ Sign up form
             transform: translateY(-50%);
     margin-left: 20px; }
   .sign-up .signup-form .form-input-group i.fa-envelope {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 20px; }
+    .sign-up .signup-form .form-input-group i.fa-phone {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 20px; }
+   .sign-up .signup-form .form-input-group i.fa-comment {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 20px; }
+    .sign-up .signup-form .form-input-group i.fa-newspaper-o {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 20px; }
+    .sign-up .signup-form .form-input-group i.fa-male {
     font-size: 14px;
     position: absolute;
     top: 50%;
