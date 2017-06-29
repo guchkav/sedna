@@ -32,7 +32,7 @@
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><!-- PEACEMAIN --><a href="#"><img src="img/peacemain_logo_min.png" alt="Sedna logo"></a><a href="#"><img src="img/peacemain_moto_min.png" alt="Sedna logo"></a></div>
+                    <div class="logo"><!-- PEACEMAIN --><a href="#"><img src="img/peacemain_logo_min.png" alt="Sedna logo"></a><a href="#"><img src="img/peacemain_caption_min.png" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
@@ -177,11 +177,11 @@
                     <h5>Dongamanti Praveen Kumar , MBA ,</h5>
                     <p>Business Consultant ,India,
                     <br><span class="desktop-disable-call">Tel: +91 - 8143212873, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 - 8143212875</span>
-                    <span class="mobile-enable-call">Tel: <a href="tel:08143212873">+91 - 8143212873</a>, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:08143212875">+91 - 8143212875</a></span><br>E-mail : <a href="mailto:info@peacemain.com">info@peacemain.com​</a></p>
+                    <span class="mobile-enable-call">Tel: <a href="tel:08143212873">+91 - 8143212873</a>, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:08143212875">+91 - 8143212875</a></span>E-mail : <a href="mailto:info@peacemain.com">info@peacemain.com​</a></p>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                     <!-- <img src="img/130.jpg"><br> -->
-                    <h2><q><cite>There are no secrets to success. It is the result of preparation, hard work, and learning from failure.</cite></q></h2>
+                    <h2><q><cite>Reference First Preference</cite></q></h2>
                 </div>
             </div>
         </div>
@@ -223,24 +223,25 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <h3>CONTACT US</h3>
+                    <h6 style="color: red;">We are not taking any mails right now, will hung up with you shortly.</h6>
                     <p></p>
                     <form class="signup-form" action="#" method="POST" role="form">
                         <div class="form-input-group">
-                            <i class="fa fa-male"></i><input type="text" class="" placeholder="Enter your name" required>
+                            <i class="fa fa-male"></i><input type="text" class="" placeholder="Enter your name" disabled required>
                         </div>
                         <div class="form-input-group">
-                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required>
+                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Enter your email" required disabled >
                         </div>
                         <div class="form-input-group">
-                            <i class="fa fa-phone"></i><input type="text" class="" placeholder="Enter your phone number" required>
+                            <i class="fa fa-phone"></i><input type="text" class="" placeholder="Enter your phone number" required disabled >
                         </div>
                         <div class="form-input-group">
-                            <i class="fa fa-newspaper-o"></i><input type="text" class="" placeholder="Enter subject" required>
+                            <i class="fa fa-newspaper-o"></i><input type="text" class="" placeholder="Enter subject" required disabled >
                         </div>
                         <div class="form-input-group">
-                            <i class="fa fa-comment"></i><input type="text" class="" placeholder="Enter your message" required>
+                            <i class="fa fa-comment"></i><input type="text" class="" placeholder="Enter your message" required disabled>
                         </div>
-                        <button type="submit" class="btn-fill sign-up-btn">Send Message</button>
+                        <button type="submit" class="btn-fill sign-up-btn" disabled>Send Message</button>
                     </form>
                 </div>
             </div>
@@ -263,13 +264,18 @@
                         Copyright © 2017 <a href="#">PEACEMAIN OPC (P) LTD</a><br></p>
                     </div>
                 </div>
-                <div class="social-share">
+                <!-- <div class="social-share">
                     <p>Connect Peacemain with your friends</p>
                     <a href="#" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        function submitForm(){
+            alert("We are not taking any mails right now, will hung up with you shortly")
+        }
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/jquery.fancybox.pack.js"></script>
